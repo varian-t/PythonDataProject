@@ -1,18 +1,6 @@
 """
-metro_traffic_commute_600m_5plus.py
-=====================================
 Same as metro_traffic_commute_600m.py (600 m distance threshold) but restricted
 to metro stations that have MORE THAN 5 schools within the radius.
-
-Distance threshold : 600 m
-Minimum schools    : > 5
-
-Outputs
--------
-data/processed/commute_station_summary_600m_5plus.csv
-visualisations/600m_5plus/commute_traffic_overview.png
-visualisations/600m_5plus/top_stations_bubble.png
-visualisations/600m_5plus/heatmap_commute.png
 """
 
 from pathlib import Path
@@ -26,7 +14,7 @@ import seaborn as sns
 import warnings
 warnings.filterwarnings("ignore")
 
-# ── Paths ────────────────────────────────────────────────────────────────────
+# Paths
 BASE_DIR        = Path(__file__).resolve().parent
 PROCESSED_DIR   = BASE_DIR / "data" / "processed"
 INTEGRATED_DIR  = BASE_DIR / "data" / "integrated"
@@ -37,17 +25,17 @@ SCHOOL_STATION_CSV = INTEGRATED_DIR / "school_station_comparison.csv"
 METRO_CSV          = PROCESSED_DIR  / "metro.csv"
 OUTPUT_CSV         = PROCESSED_DIR  / "commute_station_summary_600m_5plus.csv"
 
-# ── Thresholds ────────────────────────────────────────────────────────────────
-DISTANCE_THRESHOLD_M = 600       # schools must be within this distance
-THRESHOLD_LABEL      = "600 m"
-MIN_SCHOOLS          = 5         # station must have MORE THAN this many schools
+# Thresholds
+DISTANCE_THRESHOLD_M = 600 # schools must be within this distance
+THRESHOLD_LABEL = "600 m"
+MIN_SCHOOLS = 5 # station must have MORE THAN this many schools
 
 # Commute hour definitions
-MORNING_HOURS   = [6, 7, 8]        # 06:00–09:00
-AFTERNOON_HOURS = [16, 17]         # 16:00–18:00
-COMMUTE_HOURS   = MORNING_HOURS + AFTERNOON_HOURS
+MORNING_HOURS = [6, 7, 8] # 06:00–09:00
+AFTERNOON_HOURS = [16, 17] # 16:00–18:00
+COMMUTE_HOURS = MORNING_HOURS + AFTERNOON_HOURS
 
-# ── Styling ───────────────────────────────────────────────────────────────────
+# Styling
 sns.set_theme(style="whitegrid", palette="muted", font_scale=1.1)
 PALETTE = {
     "morning":   "#E07B39",
@@ -56,9 +44,7 @@ PALETTE = {
     "schools":   "#2BAE66",
 }
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# 1. Load & filter school-station comparison data
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Load & filter school-station comparison data
 print("Loading school-station comparison data …")
 sc = pd.read_csv(SCHOOL_STATION_CSV, encoding="utf-8-sig")
 
@@ -73,7 +59,7 @@ within_threshold = sc_latest[
 print(f"  Schools within {THRESHOLD_LABEL} of a metro station : {len(within_threshold):,}")
 print(f"  Unique metro stations in that set         : {within_threshold['station_match_key'].nunique():,}")
 
-# ── Count schools per station ─────────────────────────────────────────────────
+# Count schools per station
 station_school_counts = (
     within_threshold
     .groupby(["station_match_key", "nearest_station_name", "nearest_station_lines"])
@@ -88,7 +74,7 @@ station_school_counts = (
 station_school_counts["avg_distance_m"] = station_school_counts["avg_distance_m"].round(1)
 station_school_counts["min_distance_m"] = station_school_counts["min_distance_m"].round(1)
 
-# ── Apply school-count filter ─────────────────────────────────────────────────
+# Apply school-count filter
 before = len(station_school_counts)
 station_school_counts = station_school_counts[
     station_school_counts["school_count"] > MIN_SCHOOLS
@@ -98,9 +84,7 @@ print(f"  Stations after >{MIN_SCHOOLS} schools filter : {after} (dropped {befor
 
 target_stations = set(station_school_counts["station_match_key"])
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# 2. Load metro traffic (commute hours, target stations only)
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Load metro traffic (commute hours, target stations only)
 print("Loading metro passenger data (commute hours) …")
 metro = pd.read_csv(
     METRO_CSV,
@@ -119,9 +103,7 @@ metro_commute["commute_period"] = metro_commute["hour_start"].apply(
 )
 print(f"  Commute-hour records loaded: {len(metro_commute):,}")
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# 3. Aggregate traffic
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Aggregate traffic
 print("Aggregating traffic by station and commute period …")
 
 monthly = (
@@ -156,9 +138,7 @@ traffic_wide["avg_monthly_total_commute"] = (
     traffic_wide["avg_monthly_afternoon"].fillna(0)
 ).astype(int)
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# 4. Build master summary table
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Build master summary table
 summary = station_school_counts.merge(traffic_wide, on="station_match_key", how="left")
 summary = summary[summary["avg_monthly_total_commute"] > 0].copy()
 summary = summary.sort_values("avg_monthly_total_commute", ascending=False).reset_index(drop=True)
@@ -166,9 +146,7 @@ summary.to_csv(OUTPUT_CSV, index=False, encoding="utf-8-sig")
 print(f"  Summary saved → {OUTPUT_CSV}")
 print(f"  Stations in summary: {len(summary)}")
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# 5. Visualisation helpers
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Visualisation helpers
 def fmt_k(x, pos=None):
     if x >= 1_000_000:
         return f"{x/1_000_000:.1f}M"
@@ -181,9 +159,7 @@ top25  = summary.head(TOP_N).copy()
 
 FILTER_LABEL = f">{MIN_SCHOOLS} schools, {THRESHOLD_LABEL} radius"
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # CHART 1: 4-panel overview
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 print("Generating commute_traffic_overview.png …")
 
 fig, axes = plt.subplots(2, 2, figsize=(20, 16))
@@ -254,9 +230,7 @@ fig.savefig(out_path, dpi=150, bbox_inches="tight")
 plt.close(fig)
 print(f"  Saved → {out_path}")
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # CHART 2: Bubble chart
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 print("Generating top_stations_bubble.png …")
 
 bubble_data = summary.dropna(subset=["avg_monthly_total_commute"]).head(60).copy()
@@ -301,9 +275,7 @@ fig.savefig(out_path, dpi=150, bbox_inches="tight")
 plt.close(fig)
 print(f"  Saved → {out_path}")
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # CHART 3: Heatmap
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 print("Generating heatmap_commute.png …")
 
 TOP_HM = min(30, len(summary))
@@ -354,9 +326,7 @@ fig.savefig(out_path, dpi=150, bbox_inches="tight")
 plt.close(fig)
 print(f"  Saved → {out_path}")
 
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 6. Console summary
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 print()
 print("=" * 70)
 print(f"COMMUTE TRAFFIC SUMMARY — STATIONS ({FILTER_LABEL})")
