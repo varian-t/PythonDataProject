@@ -24,7 +24,6 @@ segments = {
 month_names = ["January", "February", "March", "April", "May", "June", "July",
                "August", "September", "October", "November", "December"]
 
-
 def load_data():
     """Returns the data in long format: month, year, mon, line, station, hour, passengers."""
     if os.path.exists(PROCESSED_FILE):
@@ -37,7 +36,7 @@ def load_data():
         hour_columns = [c for c in raw.columns if "passengers" in c]
         df = pd.melt(raw, id_vars=["months", "metro_lines", "station_names"],
                      value_vars=hour_columns, var_name="column", value_name="passengers")
-        df["hour"] = df["column"].str[:2].astype(int)     # "04..." -> 4
+        df["hour"] = df["column"].str[:2].astype(int)
         df = df.rename(columns={"months": "month", "metro_lines": "line",
                                 "station_names": "station"})
         df = df.groupby(["month", "line", "station", "hour", "column"])["passengers"].max().reset_index()
@@ -60,7 +59,6 @@ def make_table(data):
     table = table[total > 0.01 * total.median()]
     return table
 
-
 def make_summary(table):
     """For each station and segment: average, busiest hour and quietest hour."""
     rows = []
@@ -76,7 +74,6 @@ def make_summary(table):
                          "quietest_value": values.min()})
     return pd.DataFrame(rows)
 
-
 def make_top_bottom(summary):
     """Most and least crowded station in each segment (questions 3 and 4)."""
     rows = []
@@ -91,12 +88,9 @@ def make_top_bottom(summary):
                      "least_crowded_avg": worst["avg_passengers"]})
     return pd.DataFrame(rows)
 
-
-# ------------------------------------------------------------ 3. heatmaps
 def relative(table):
     """Each row divided by its own maximum: 1 = peak hour of that station."""
     return table.div(table.max(axis=1), axis=0)
-
 
 def heatmap_top_stations(table, path, suffix):
     top = table.loc[table.sum(axis=1).nlargest(TOP_N).index]
@@ -110,7 +104,6 @@ def heatmap_top_stations(table, path, suffix):
     fig.savefig(path, dpi=150)
     plt.close(fig)
 
-
 def heatmap_relative(table, path, suffix):
     top = table.loc[table.sum(axis=1).nlargest(TOP_N).index]
     fig, ax = plt.subplots(figsize=(14, 10))
@@ -122,7 +115,6 @@ def heatmap_relative(table, path, suffix):
     fig.tight_layout()
     fig.savefig(path, dpi=150)
     plt.close(fig)
-
 
 def heatmap_all_stations(table, path, suffix):
     rel = relative(table)
@@ -140,7 +132,6 @@ def heatmap_all_stations(table, path, suffix):
     fig.savefig(path, dpi=150)
     plt.close(fig)
 
-
 def heatmap_by_segment(table, path, suffix):
     """One heatmap for each segment of the day (top stations)."""
     top = table.loc[table.sum(axis=1).nlargest(TOP_N).index]
@@ -156,7 +147,6 @@ def heatmap_by_segment(table, path, suffix):
     fig.savefig(path, dpi=150)
     plt.close(fig)
 
-
 def heatmap_segment_avg(summary, path, suffix):
     pv = summary.pivot_table(index="station", columns="segment", values="avg_passengers")
     pv = pv[list(segments)]
@@ -167,7 +157,6 @@ def heatmap_segment_avg(summary, path, suffix):
     fig.tight_layout()
     fig.savefig(path, dpi=150)
     plt.close(fig)
-
 
 def heatmaps_by_line(table, folder, suffix):
     """One relative heatmap for each metro line, with the station names."""
@@ -197,7 +186,6 @@ def heatmaps_by_line(table, folder, suffix):
 def clean_name(names):
     """Same name format in the metro data and in the coordinates file."""
     return names.str.split("(").str[0].str.strip().str.lower().str.replace(" ", "")
-
 
 def map_by_segment(data, path, suffix):
     """Map of Seoul: one panel per segment, colour = crowdedness."""
