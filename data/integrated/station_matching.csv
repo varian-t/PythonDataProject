@@ -1,0 +1,703 @@
+﻿metro_lines,station_names,station_match_key,coordinate_station_names,coordinate_lines,latitude,longitude,name_match_type,match_status
+AirportRailroadExpress,Airport Cargo Terminal,airport cargo terminal,Airport Cargo Terminal,AirportRailroadExpress,37.458366,126.476241,exact,matched
+AirportRailroadExpress,Cheongna Int'l City,cheongna int'l city,Cheongna Int'l City,AirportRailroadExpress,37.555878,126.625327,exact,matched
+AirportRailroadExpress,Digital Media City,digital media city,Digital Media City,"AirportRailroadExpress, GyeonguiLine, Line6",37.576646,126.900984,exact,matched
+AirportRailroadExpress,Geomam,geomam,Geomam,"AirportRailroadExpress, IncheonLine2",37.569104,126.673728,exact,matched
+AirportRailroadExpress,Gimpo Int'l Airport,gimpo int'l airport,Gimpo Int'l Airport,"AirportRailroadExpress, GimpoGoldline, Line5, Line9",37.562434,126.801058,exact,matched
+AirportRailroadExpress,Gongdeok,gongdeok,Gongdeok,"AirportRailroadExpress, GyeonguiLine, Line5, Line6",37.544018,126.951592,exact,matched
+AirportRailroadExpress,Gyeyang,gyeyang,Gyeyang,"AirportRailroadExpress, IncheonLine1",37.571462,126.735637,exact,matched
+AirportRailroadExpress,Hongik Univ.,hongik univ.,Hongik Univ.,"AirportRailroadExpress, GyeonguiLine, Line2",37.557192,126.925381,exact,matched
+AirportRailroadExpress,Incheon Int'l Airport,incheon int'l airport,,,,,unmatched,station_name_not_found
+AirportRailroadExpress,Incheon Int'l Airport Terminal 1,incheon int'l airport terminal 1,Incheon Int'l Airport Terminal 1,AirportRailroadExpress,,,exact,coordinates_unavailable
+AirportRailroadExpress,Incheon Int'l Airport Terminal 2,incheon int'l airport terminal 2,Incheon Int'l Airport Terminal 2,AirportRailroadExpress,,,exact,coordinates_unavailable
+AirportRailroadExpress,Magok Naru,magok naru,Magok Naru (Seoul Botanic Park),"AirportRailroadExpress, Line9",37.567336,126.829497,standardized_alias,matched
+AirportRailroadExpress,Magok Naru (Seoul Botanic Park),magok naru,Magok Naru (Seoul Botanic Park),"AirportRailroadExpress, Line9",37.567336,126.829497,exact,matched
+AirportRailroadExpress,Seoul,seoul,Seoul,"AirportRailroadExpress, GyeonguiLine, Line1, Line4",37.554648,126.972559,exact,matched
+AirportRailroadExpress,Unseo,unseo,Unseo,AirportRailroadExpress,37.492904,126.49379,exact,matched
+AirportRailroadExpress,Yeongjong,yeongjong,Yeongjong,AirportRailroadExpress,37.511466,126.5237,exact,matched
+AnsanLine,Ansan,ansan,Ansan,Line4,37.327082,126.788532,exact,matched
+AnsanLine,Banwol,banwol,Banwol,Line4,37.312212,126.903524,exact,matched
+AnsanLine,Choji,choji,Choji,"Line4, SeohaeLine",37.320646,126.805913,exact,matched
+AnsanLine,Daeyami,daeyami,Daeyami,Line4,37.328467,126.917332,exact,matched
+AnsanLine,Gojan,gojan,Gojan,Line4,37.316777,126.823249,exact,matched
+AnsanLine,Hanyang Univ. at Ansan,hanyang univ. at ansan,Hanyang Univ. at Ansan,Line4,37.309689,126.85344,exact,matched
+AnsanLine,Jeongwang,jeongwang,Jeongwang,Line4,37.351735,126.742989,exact,matched
+AnsanLine,Jungang,jungang,Jungang,Line4,37.315941,126.838573,exact,matched
+AnsanLine,Oido,oido,Oido,"Line4, SuinLine",37.362357,126.738714,exact,matched
+AnsanLine,Sanbon,sanbon,Sanbon,Line4,37.358101,126.933274,exact,matched
+AnsanLine,Sangnoksu,sangnoksu,Sangnoksu,Line4,37.302795,126.866489,exact,matched
+AnsanLine,Singil Oncheon,singil oncheon,Singil Oncheon,Line4,37.338212,126.765844,exact,matched
+AnsanLine,Surisan,surisan,Surisan,Line4,37.349801,126.925365,exact,matched
+BundangLine,Apgujeong Rodeo,apgujeong rodeo,Apgujeong Rodeo,BundangLine,37.527381,127.040534,exact,matched
+BundangLine,Bojeong,bojeong,Bojeong,BundangLine,37.312752,127.108196,exact,matched
+BundangLine,Bokjeong,bokjeong,Bokjeong,"BundangLine, Line8",37.470047,127.126662,exact,matched
+BundangLine,Cheongmyeong,cheongmyeong,Cheongmyeong,BundangLine,37.259489,127.078934,exact,matched
+BundangLine,Daemosan Entrance,daemosan entrance,Daemosan Entrance,BundangLine,37.491373,127.07272,exact,matched
+BundangLine,Dogok,dogok,Dogok,"BundangLine, Line3",37.490858,127.055381,exact,matched
+BundangLine,Gachon Univ.,gachon univ.,Gachon Univ.,BundangLine,37.448605,127.126697,exact,matched
+BundangLine,Gaepo-dong,gaepo-dong,Gaepo-dong,BundangLine,37.489116,127.06614,exact,matched
+BundangLine,Gangnam-gu Office,gangnam-gu office,Gangnam-gu Office,"BundangLine, Line7",37.517186,127.04128,exact,matched
+BundangLine,Giheung,giheung,Giheung,"BundangLine, EverLine",37.275619,127.115936,exact,matched
+BundangLine,Guryong,guryong,Guryong,BundangLine,37.486839,127.058856,exact,matched
+BundangLine,Guseong,guseong,Guseong,BundangLine,37.298969,127.105664,exact,matched
+BundangLine,Hanti,hanti,Hanti,BundangLine,37.496237,127.052873,exact,matched
+BundangLine,Imae,imae,Imae,"BundangLine, GyeonggangLine",37.396104,127.12827,exact,matched
+BundangLine,Jeongja,jeongja,Jeongja,"BundangLine, ShinbundangLine",37.36706,127.108105,exact,matched
+BundangLine,Jukjeon,jukjeon,Jukjeon,BundangLine,37.324753,127.107395,exact,matched
+BundangLine,Maegyo,maegyo,Maegyo,BundangLine,37.265481,127.015678,exact,matched
+BundangLine,Maetan Gwonseon,maetan gwonseon,Maetan Gwonseon,BundangLine,37.252759,127.040566,exact,matched
+BundangLine,Mangpo,mangpo,Mangpo,BundangLine,37.245795,127.057353,exact,matched
+BundangLine,Migeum,migeum,Migeum,"BundangLine, ShinbundangLine",37.350077,127.10891,exact,matched
+BundangLine,Moran,moran,Moran,"BundangLine, Line8",37.43213,127.129087,exact,matched
+BundangLine,Ori,ori,Ori,BundangLine,37.339824,127.108942,exact,matched
+BundangLine,Sanggal,sanggal,Sanggal,BundangLine,37.26181,127.108847,exact,matched
+BundangLine,Seohyeon,seohyeon,Seohyeon,BundangLine,37.385126,127.123592,exact,matched
+BundangLine,Seolleung,seolleung,Seolleung,"BundangLine, Line2",37.504503,127.049008,exact,matched
+BundangLine,Seonjeongneung,seonjeongneung,Seonjeongneung,"BundangLine, Line9",37.51098,127.043593,exact,matched
+BundangLine,Seoul Forest,seoul forest,Seoul Forest,BundangLine,37.543617,127.044707,exact,matched
+BundangLine,Singal,singal,Singal,BundangLine,37.286102,127.111313,exact,matched
+BundangLine,Sunae,sunae,Sunae,BundangLine,37.378455,127.114322,exact,matched
+BundangLine,Suseo,suseo,Suseo,"BundangLine, Line3",37.487371,127.10188,exact,matched
+BundangLine,Suwon,suwon,Suwon,"BundangLine, Line1",37.265974,126.999874,exact,matched
+BundangLine,Suwon City Hall,suwon city hall,Suwon City Hall,BundangLine,37.261911,127.030736,exact,matched
+BundangLine,Taepyeong,taepyeong,Taepyeong,BundangLine,37.440019,127.127709,exact,matched
+BundangLine,Yatap,yatap,Yatap,BundangLine,37.411185,127.128715,exact,matched
+BundangLine,Yeongtong,yeongtong,Yeongtong,BundangLine,37.251568,127.071394,exact,matched
+GwacheonLine,Beomgye,beomgye,Beomgye,Line4,37.389793,126.950806,exact,matched
+GwacheonLine,Gov't Complex Gwacheon,gov't complex gwacheon,Gov't Complex Gwacheon,Line4,37.426513,126.98978,exact,matched
+GwacheonLine,Gwacheon,gwacheon,Gwacheon,Line4,37.433021,126.996568,exact,matched
+GwacheonLine,Indeogwon,indeogwon,Indeogwon,Line4,37.401553,126.976715,exact,matched
+GwacheonLine,Pyeongchon,pyeongchon,Pyeongchon,Line4,37.394287,126.963883,exact,matched
+GwacheonLine,Seonbawi,seonbawi,Seonbawi,Line4,37.451673,127.002303,exact,matched
+GwacheonLine,Seoul Grand Park,seoul grand park,Seoul Grand Park,Line4,37.435675,127.006523,exact,matched
+GwacheonLine,Seoul Racecourse Park,seoul racecourse park,Seoul Racecourse Park,Line4,37.443885,127.007888,exact,matched
+GyeongbuLine,Anyang,anyang,Anyang,Line1,37.401592,126.922874,exact,matched
+GyeongbuLine,Byeongjeom,byeongjeom,Byeongjeom,Line1,37.207503,127.032731,exact,matched
+GyeongbuLine,Cheonan,cheonan,Cheonan,Line1,36.810005,127.146826,exact,matched
+GyeongbuLine,Daebang,daebang,Daebang,Line1,37.513342,126.926382,exact,matched
+GyeongbuLine,Dangjeong,dangjeong,Dangjeong,Line1,37.344285,126.948345,exact,matched
+GyeongbuLine,Doksan,doksan,Doksan,Line1,37.466613,126.889249,exact,matched
+GyeongbuLine,Dujeong,dujeong,Dujeong,Line1,36.833705,127.14896,exact,matched
+GyeongbuLine,Gasan Digital Complex,gasan digital complex,Gasan Digital Complex,"Line1, Line7",37.481072,126.882343,exact,matched
+GyeongbuLine,Geumcheon-gu Office,geumcheon-gu office,Geumcheon-gu Office,Line1,37.455626,126.89398,exact,matched
+GyeongbuLine,Geumjeong,geumjeong,Geumjeong,"Line1, Line4",37.372221,126.943429,exact,matched
+GyeongbuLine,Gunpo,gunpo,Gunpo,Line1,37.35356,126.948462,exact,matched
+GyeongbuLine,Guro,guro,Guro,Line1,37.503039,126.881966,exact,matched
+GyeongbuLine,Gwanak,gwanak,Gwanak,Line1,37.419232,126.908706,exact,matched
+GyeongbuLine,Gwangmyeong,gwangmyeong,Gwangmyeong,Line1,37.416182,126.884466,exact,matched
+GyeongbuLine,Hwaseo,hwaseo,Hwaseo,Line1,37.283862,126.989627,exact,matched
+GyeongbuLine,Jije,jije,,,,,unmatched,station_name_not_found
+GyeongbuLine,Jiksan,jiksan,Jiksan,Line1,36.870593,127.143904,exact,matched
+GyeongbuLine,Jinwi,jinwi,Jinwi,Line1,37.109447,127.062278,exact,matched
+GyeongbuLine,Myeonghak,myeonghak,Myeonghak,Line1,37.384653,126.935433,exact,matched
+GyeongbuLine,Namyeong,namyeong,Namyeong,Line1,37.541021,126.9713,exact,matched
+GyeongbuLine,Noryangjin,noryangjin,Noryangjin,"Line1, Line9",37.514219,126.942454,exact,matched
+GyeongbuLine,Osan,osan,Osan,Line1,37.145885,127.06672,exact,matched
+GyeongbuLine,Osan Univ.,osan univ.,Osan Univ.,Line1,37.168953,127.063197,exact,matched
+GyeongbuLine,Pyeongtaek,pyeongtaek,Pyeongtaek,Line1,36.990726,127.085159,exact,matched
+GyeongbuLine,Pyeongtaek Jije,pyeongtaek jije,Pyeongtaek Jije,Line1,37.0188,127.070444,exact,matched
+GyeongbuLine,Sema,sema,Sema,Line1,37.187533,127.04318,exact,matched
+GyeongbuLine,Seo-Dongtan,seo-dongtan,Seo-Dongtan,Line1,37.195504,127.051672,exact,matched
+GyeongbuLine,Seojeongni,seojeongni,Seojeongni,Line1,37.056496,127.052819,exact,matched
+GyeongbuLine,Seoksu,seoksu,Seoksu,Line1,37.435047,126.902295,exact,matched
+GyeongbuLine,Seonghwan,seonghwan,Seonghwan,Line1,36.916076,127.126964,exact,matched
+GyeongbuLine,Seoul,seoul,Seoul,"AirportRailroadExpress, GyeonguiLine, Line1, Line4",37.554648,126.972559,exact,matched
+GyeongbuLine,Seryu,seryu,Seryu,Line1,37.245025,127.013222,exact,matched
+GyeongbuLine,Sindorim,sindorim,Sindorim,"Line1, Line2",37.508725,126.891295,exact,matched
+GyeongbuLine,Singil,singil,Singil,"Line1, Line5",37.517122,126.917169,exact,matched
+GyeongbuLine,Songtan,songtan,Songtan,Line1,37.075696,127.054301,exact,matched
+GyeongbuLine,Sungkyunkwan Univ.,sungkyunkwan univ.,Sungkyunkwan Univ.,Line1,37.300349,126.97075,exact,matched
+GyeongbuLine,Suwon,suwon,Suwon,"BundangLine, Line1",37.265974,126.999874,exact,matched
+GyeongbuLine,Uiwang,uiwang,Uiwang,Line1,37.320852,126.948217,exact,matched
+GyeongbuLine,Yeongdeungpo,yeongdeungpo,Yeongdeungpo,Line1,37.515504,126.907628,exact,matched
+GyeongbuLine,Yongsan,yongsan,Yongsan,"GyeonguiLine, Line1",37.529849,126.964561,exact,matched
+GyeongchunLine,Baegyangni,baegyangni,Baegyangni,GyeongchunLine,37.830779,127.58933,exact,matched
+GyeongchunLine,Byeollae,byeollae,Byeollae,GyeongchunLine,37.64202,127.12684,exact,matched
+GyeongchunLine,Cheongpyeong,cheongpyeong,Cheongpyeong,GyeongchunLine,37.735488,127.42661,exact,matched
+GyeongchunLine,Cheonmasan,cheonmasan,Cheonmasan,GyeongchunLine,37.658978,127.285379,exact,matched
+GyeongchunLine,Chuncheon,chuncheon,Chuncheon,GyeongchunLine,37.885054,127.717023,exact,matched
+GyeongchunLine,Daeseongni,daeseongni,Daeseongni,GyeongchunLine,37.684071,127.379319,exact,matched
+GyeongchunLine,Galmae,galmae,Galmae,GyeongchunLine,37.634118,127.114757,exact,matched
+GyeongchunLine,Gangchon,gangchon,Gangchon,GyeongchunLine,37.805723,127.634146,exact,matched
+GyeongchunLine,Gapyeong,gapyeong,Gapyeong,GyeongchunLine,37.814536,127.510739,exact,matched
+GyeongchunLine,Geumgok,geumgok,Geumgok,GyeongchunLine,37.637382,127.207853,exact,matched
+GyeongchunLine,Gulbongsan,gulbongsan,Gulbongsan,GyeongchunLine,37.832067,127.557695,exact,matched
+GyeongchunLine,Kim Yu-jeong,kim yu-jeong,Kim Yu-jeong,GyeongchunLine,37.818466,127.71434,exact,matched
+GyeongchunLine,Maseok,maseok,Maseok,GyeongchunLine,37.652782,127.311767,exact,matched
+GyeongchunLine,Nam-Chuncheon,nam-chuncheon,Nam-Chuncheon,GyeongchunLine,37.864007,127.723792,exact,matched
+GyeongchunLine,Pyeongnae Hopyeong,pyeongnae hopyeong,Pyeongnae Hopyeong,GyeongchunLine,37.653225,127.244493,exact,matched
+GyeongchunLine,Sangcheon,sangcheon,Sangcheon,GyeongchunLine,37.770246,127.454821,exact,matched
+GyeongchunLine,Sareung,sareung,Sareung,GyeongchunLine,37.65108,127.176933,exact,matched
+GyeongchunLine,Sinnae,sinnae,Sinnae,"GyeongchunLine, Line6",37.612887,127.103218,exact,matched
+GyeongchunLine,Toegyewon,toegyewon,Toegyewon,GyeongchunLine,37.648311,127.143952,exact,matched
+GyeonggangLine,Bubal,bubal,Bubal,GyeonggangLine,37.260192,127.490277,exact,matched
+GyeonggangLine,Chowol,chowol,Chowol,GyeonggangLine,37.374419,127.299,exact,matched
+GyeonggangLine,Gonjiam,gonjiam,Gonjiam,GyeonggangLine,37.351315,127.34674,exact,matched
+GyeonggangLine,Gyeonggi Gwangju,gyeonggi gwangju,Gyeonggi Gwangju,GyeonggangLine,37.399907,126.630347,exact,matched
+GyeonggangLine,Icheon,icheon,Icheon,GyeonggangLine,37.265579,127.44226,exact,matched
+GyeonggangLine,Imae,imae,Imae,"BundangLine, GyeonggangLine",37.396104,127.12827,exact,matched
+GyeonggangLine,Pangyo,pangyo,Pangyo,"GyeonggangLine, ShinbundangLine",37.394761,127.111217,exact,matched
+GyeonggangLine,Samdong,samdong,Samdong,GyeonggangLine,37.409522,127.20336,exact,matched
+GyeonggangLine,Sejong Royal Tomb,sejong royal tomb,Sejong Royal Tomb,GyeonggangLine,37.295309,127.570938,exact,matched
+GyeonggangLine,Seongnam,seongnam,Seongnam,IncheonLine2,37.506193,126.676203,exact,matched
+GyeonggangLine,Sindun Doyechon,sindun doyechon,Sindun Doyechon,GyeonggangLine,37.317185,127.40476,exact,matched
+GyeonggangLine,Yeoju,yeoju,Yeoju,GyeonggangLine,37.282701,127.628607,exact,matched
+GyeonginLine,Baegun,baegun,Baegun,Line1,37.483664,126.707704,exact,matched
+GyeonginLine,Bucheon,bucheon,Bucheon,Line1,37.48405,126.782686,exact,matched
+GyeonginLine,Bugae,bugae,Bugae,Line1,37.488418,126.74109,exact,matched
+GyeonginLine,Bupyeong,bupyeong,Bupyeong,"IncheonLine1, Line1",37.489493,126.724805,exact,matched
+GyeonginLine,Dohwa,dohwa,Dohwa,Line1,37.46607,126.668672,exact,matched
+GyeonginLine,Dong-Incheon,dong-incheon,Dong-Incheon,Line1,37.475276,126.632802,exact,matched
+GyeonginLine,Dongam,dongam,Dongam,Line1,37.471408,126.702896,exact,matched
+GyeonginLine,Dowon,dowon,Dowon,Line1,37.468446,126.642706,exact,matched
+GyeonginLine,Gaebong,gaebong,Gaebong,Line1,37.494594,126.85868,exact,matched
+GyeonginLine,Ganseok,ganseok,Ganseok,Line1,37.464737,126.694181,exact,matched
+GyeonginLine,Guil,guil,Guil,Line1,37.496756,126.870793,exact,matched
+GyeonginLine,Incheon,incheon,Incheon,"Line1, SuinLine",37.476691,126.616936,exact,matched
+GyeonginLine,Jemulpo,jemulpo,Jemulpo,Line1,37.466769,126.656666,exact,matched
+GyeonginLine,Juan,juan,Juan,"IncheonLine2, Line1",37.464941,126.679923,exact,matched
+GyeonginLine,Jungdong,jungdong,Jungdong,Line1,37.486562,126.764843,exact,matched
+GyeonginLine,Onsu,onsu,Onsu (Sungkonghoe Univ.),"Line1, Line7",37.492258,126.823388,standardized_alias,matched
+GyeonginLine,Onsu (Sungkonghoe Univ.),onsu,Onsu (Sungkonghoe Univ.),"Line1, Line7",37.492258,126.823388,exact,matched
+GyeonginLine,Oryu-dong,oryu-dong,Oryu-dong,Line1,37.494526,126.845365,exact,matched
+GyeonginLine,Songnae,songnae,Songnae,Line1,37.4876,126.753664,exact,matched
+GyeonginLine,Sosa,sosa,Sosa,"Line1, SeohaeLine",37.482753,126.79544,exact,matched
+GyeonginLine,Yeokgok,yeokgok,Yeokgok,Line1,37.485178,126.811502,exact,matched
+GyeonguiLine,Baekma,baekma,Baekma,GyeonguiLine,37.658239,126.794461,exact,matched
+GyeonguiLine,Digital Media City,digital media city,Digital Media City,"AirportRailroadExpress, GyeonguiLine, Line6",37.576646,126.900984,exact,matched
+GyeonguiLine,Gajwa,gajwa,Gajwa,GyeonguiLine,37.568491,126.915487,exact,matched
+GyeonguiLine,Gangmae,gangmae,Gangmae,GyeonguiLine,37.612314,126.843223,exact,matched
+GyeonguiLine,Geomam,geomam,Geomam,"AirportRailroadExpress, IncheonLine2",37.569104,126.673728,exact,matched
+GyeonguiLine,Geumchon,geumchon,Geumchon,GyeonguiLine,37.766217,126.774644,exact,matched
+GyeonguiLine,Geumneung,geumneung,Geumneung,GyeonguiLine,37.751322,126.765347,exact,matched
+GyeonguiLine,Gimpo Int'l Airport,gimpo int'l airport,Gimpo Int'l Airport,"AirportRailroadExpress, GimpoGoldline, Line5, Line9",37.562434,126.801058,exact,matched
+GyeonguiLine,Goksan,goksan,Goksan,GyeonguiLine,37.645676,126.801762,exact,matched
+GyeonguiLine,Gongdeok,gongdeok,Gongdeok,"AirportRailroadExpress, GyeonguiLine, Line5, Line6",37.544018,126.951592,exact,matched
+GyeonguiLine,Gyeyang,gyeyang,Gyeyang,"AirportRailroadExpress, IncheonLine1",37.571462,126.735637,exact,matched
+GyeonguiLine,Haengsin,haengsin,Haengsin,GyeonguiLine,37.612102,126.834146,exact,matched
+GyeonguiLine,Hongik Univ.,hongik univ.,Hongik Univ.,"AirportRailroadExpress, GyeonguiLine, Line2",37.557192,126.925381,exact,matched
+GyeonguiLine,Hwajeon,hwajeon,,,,,unmatched,station_name_not_found
+GyeonguiLine,Hyochang Park,hyochang park,Hyochang Park,"GyeonguiLine, Line6",37.539261,126.961351,exact,matched
+GyeonguiLine,Ilsan,ilsan,Ilsan,GyeonguiLine,37.682077,126.769846,exact,matched
+GyeonguiLine,Imjingang,imjingang,Imjingang,GyeonguiLine,,,exact,coordinates_unavailable
+GyeonguiLine,Korea Aerospace Univ.,korea aerospace univ.,Korea Aerospace Univ.,GyeonguiLine,37.602888,126.868387,exact,matched
+GyeonguiLine,Munsan,munsan,Munsan,GyeonguiLine,37.854619,126.788047,exact,matched
+GyeonguiLine,Neunggok,neunggok,Neunggok,GyeonguiLine,37.618808,126.820783,exact,matched
+GyeonguiLine,Paju,paju,Paju,GyeonguiLine,37.815298,126.792783,exact,matched
+GyeonguiLine,Pungsan,pungsan,Pungsan,GyeonguiLine,37.672346,126.786243,exact,matched
+GyeonguiLine,Seoul,seoul,Seoul,"AirportRailroadExpress, GyeonguiLine, Line1, Line4",37.554648,126.972559,exact,matched
+GyeonguiLine,Sinchon,sinchon,Sinchon,"GyeonguiLine, Line2",37.555134,126.936893,exact,matched
+GyeonguiLine,Sogang Univ.,sogang univ.,Sogang Univ.,GyeonguiLine,37.551881,126.935711,exact,matched
+GyeonguiLine,Susaek,susaek,Susaek,GyeonguiLine,37.580842,126.895611,exact,matched
+GyeonguiLine,Tanhyeon,tanhyeon,Tanhyeon,GyeonguiLine,37.694023,126.761086,exact,matched
+GyeonguiLine,Uncheon,uncheon,,,,,unmatched,station_name_not_found
+GyeonguiLine,Unjeong,unjeong,Unjeong,GyeonguiLine,37.725826,126.767257,exact,matched
+GyeonguiLine,Wollong,wollong,Wollong,GyeonguiLine,37.796188,126.792587,exact,matched
+GyeonguiLine,Yadang,yadang,Yadang,GyeonguiLine,37.712327,126.761356,exact,matched
+GyeongwonLine,Banghak,banghak,Banghak,Line1,37.667503,127.044273,exact,matched
+GyeongwonLine,Bosan,bosan,Bosan,Line1,37.913702,127.057277,exact,matched
+GyeongwonLine,Changdong,changdong,Changdong,"Line1, Line4",37.653166,127.047731,exact,matched
+GyeongwonLine,Cheongnyangni,cheongnyangni,Cheongnyangni,"BundangLine, GyeongchunLine, GyeonguiLine, Line1",37.580178,127.046835,exact,matched
+GyeongwonLine,Cheongnyangni (Aboveground),cheongnyangni,Cheongnyangni,"BundangLine, GyeongchunLine, GyeonguiLine, Line1",37.580178,127.046835,standardized_alias,matched
+GyeongwonLine,Cheongsan,cheongsan,,,,,unmatched,station_name_not_found
+GyeongwonLine,Choseongni,choseongni,,,,,unmatched,station_name_not_found
+GyeongwonLine,Deokgye,deokgye,Deokgye,Line1,37.818486,127.056486,exact,matched
+GyeongwonLine,Deokjeong,deokjeong,Deokjeong,Line1,37.843188,127.061277,exact,matched
+GyeongwonLine,Dobong,dobong,Dobong,Line1,37.679563,127.045595,exact,matched
+GyeongwonLine,Dobongsan,dobongsan,Dobongsan,"Line1, Line7",37.689313,127.046222,exact,matched
+GyeongwonLine,Dongducheon,dongducheon,Dongducheon,Line1,37.927878,127.05479,exact,matched
+GyeongwonLine,Dongducheon Jungang,dongducheon jungang,Dongducheon Jungang,Line1,37.901885,127.056482,exact,matched
+GyeongwonLine,Eungbong,eungbong,Eungbong,GyeonguiLine,37.549946,127.034538,exact,matched
+GyeongwonLine,Ganeung,ganeung,Ganeung,Line1,37.748577,127.044213,exact,matched
+GyeongwonLine,Hankuk Univ. of Foreign Studies,hankuk univ. of foreign studies,Hankuk Univ. of Foreign Studies,Line1,37.596073,127.063549,exact,matched
+GyeongwonLine,Hannam,hannam,Hannam,GyeonguiLine,37.52943,127.009169,exact,matched
+GyeongwonLine,Hoeryong,hoeryong,Hoeryong,"Line1, UijeongbuLine",37.724846,127.046895,exact,matched
+GyeongwonLine,Ichon,ichon,Ichon (Nat'l Museum of Korea),"GyeonguiLine, Line4",37.522272,126.974345,standardized_alias,matched
+GyeongwonLine,Ichon (Nat'l Museum of Korea),ichon,Ichon (Nat'l Museum of Korea),"GyeonguiLine, Line4",37.522272,126.974345,exact,matched
+GyeongwonLine,Jeongok,jeongok,,,,,unmatched,station_name_not_found
+GyeongwonLine,Jihaeng,jihaeng,Jihaeng,Line1,37.892334,127.055716,exact,matched
+GyeongwonLine,Kwangwoon Univ.,kwangwoon univ.,Kwangwoon Univ.,"GyeongchunLine, Line1",37.623632,127.061835,exact,matched
+GyeongwonLine,Mangwolsa,mangwolsa,Mangwolsa,Line1,37.709914,127.047455,exact,matched
+GyeongwonLine,Nogyang,nogyang,Nogyang,Line1,37.75938,127.042292,exact,matched
+GyeongwonLine,Nokcheon,nokcheon,Nokcheon,Line1,37.644799,127.051269,exact,matched
+GyeongwonLine,Oksu,oksu,Oksu,"GyeonguiLine, Line3",37.540685,127.017965,exact,matched
+GyeongwonLine,Seobinggo,seobinggo,Seobinggo,GyeonguiLine,37.519594,126.988537,exact,matched
+GyeongwonLine,Seokgye,seokgye,Seokgye,"Line1, Line6",37.614805,127.065851,exact,matched
+GyeongwonLine,Sinimun,sinimun,Sinimun,Line1,37.601854,127.067325,exact,matched
+GyeongwonLine,Soyosan,soyosan,Soyosan,Line1,37.9481,127.061034,exact,matched
+GyeongwonLine,Uijeongbu,uijeongbu,Uijeongbu,Line1,37.738415,127.045958,exact,matched
+GyeongwonLine,Wangsimni,wangsimni,Wangsimni (Seongdong-gu Office),"BundangLine, GyeonguiLine, Line2, Line5",37.561533,127.037732,standardized_alias,matched
+GyeongwonLine,Wangsimni (Seongdong-gu Office),wangsimni,Wangsimni (Seongdong-gu Office),"BundangLine, GyeonguiLine, Line2, Line5",37.561533,127.037732,exact,matched
+GyeongwonLine,Wolgye,wolgye,Wolgye,Line1,37.633212,127.058831,exact,matched
+GyeongwonLine,Yangju,yangju,Yangju,Line1,37.774381,127.044708,exact,matched
+GyeongwonLine,Yeoncheon,yeoncheon,,,,,unmatched,station_name_not_found
+IlsanLine,Baekseok,baekseok,Baekseok,Line3,37.643114,126.78787,exact,matched
+IlsanLine,Daegok,daegok,Daegok,"GyeonguiLine, Line3",37.631626,126.811024,exact,matched
+IlsanLine,Daehwa,daehwa,Daehwa,Line3,37.676087,126.747569,exact,matched
+IlsanLine,Hwajeong,hwajeong,Hwajeong,Line3,37.634592,126.83265,exact,matched
+IlsanLine,Jeongbalsan,jeongbalsan,Jeongbalsan,Line3,37.659477,126.773359,exact,matched
+IlsanLine,Jichuk,jichuk,Jichuk,Line3,37.648048,126.913951,exact,matched
+IlsanLine,Juyeop,juyeop,Juyeop,Line3,37.670072,126.761334,exact,matched
+IlsanLine,Madu,madu,Madu,Line3,37.652206,126.77762,exact,matched
+IlsanLine,Samsong,samsong,Samsong,Line3,37.653083,126.895558,exact,matched
+IlsanLine,Wondang,wondang,Wondang,Line3,37.653324,126.843041,exact,matched
+IlsanLine,Wonheung,wonheung,Wonheung,Line3,37.650658,126.872642,exact,matched
+JanghangLine,Asan,asan,Asan,Line1,36.792053,127.104361,exact,matched
+JanghangLine,Baebang,baebang,Baebang,Line1,36.777629,127.052991,exact,matched
+JanghangLine,Bongmyeong,bongmyeong,Bongmyeong,Line1,36.801215,127.135763,exact,matched
+JanghangLine,Onyang Oncheon,onyang oncheon,Onyang Oncheon,Line1,36.780483,127.003249,exact,matched
+JanghangLine,Sinchang,sinchang,Sinchang (Soonchunhyang Univ.),Line1,36.769502,126.951108,standardized_alias,matched
+JanghangLine,Sinchang (Soonchunhyang Univ.),sinchang,Sinchang (Soonchunhyang Univ.),Line1,36.769502,126.951108,exact,matched
+JanghangLine,Ssangyong (Korea Nazarene Univ.),ssangyong,Ssangyong (Korea Nazarene Univ.),Line1,36.793759,127.1214,exact,matched
+JanghangLine,Ssangyong-dong,ssangyong-dong,,,,,unmatched,station_name_not_found
+JanghangLine,Tangjeong,tangjeong,,,,,unmatched,station_name_not_found
+JungangLine,Asin,asin,Asin,GyeonguiLine,37.51382,127.443173,exact,matched
+JungangLine,Deokso,deokso,Deokso,GyeonguiLine,37.586781,127.208832,exact,matched
+JungangLine,Donong,donong,Donong,GyeonguiLine,37.608806,127.161153,exact,matched
+JungangLine,Dosim,dosim,Dosim,GyeonguiLine,37.579622,127.222672,exact,matched
+JungangLine,Guksu,guksu,Guksu,GyeonguiLine,37.516169,127.399367,exact,matched
+JungangLine,Guri,guri,Guri,GyeonguiLine,37.603392,127.143869,exact,matched
+JungangLine,Hoegi,hoegi,Hoegi,"GyeongchunLine, GyeonguiLine, Line1",37.58946,127.057583,exact,matched
+JungangLine,Jipyeong,jipyeong,Jipyeong,GyeonguiLine,37.476444,127.629617,exact,matched
+JungangLine,Jungnang,jungnang,Jungnang,"GyeongchunLine, GyeonguiLine",37.594917,127.076116,exact,matched
+JungangLine,Mangu,mangu,Mangu,"GyeongchunLine, GyeonguiLine",37.59955,127.091909,exact,matched
+JungangLine,Obin,obin,Obin,GyeonguiLine,37.506062,127.473868,exact,matched
+JungangLine,Paldang,paldang,Paldang,GyeonguiLine,37.547371,127.243939,exact,matched
+JungangLine,Sangbong,sangbong,Sangbong,"GyeongchunLine, GyeonguiLine, Line7",37.596362,127.085032,exact,matched
+JungangLine,Sangbong (Intercity Bus Terminal),sangbong,Sangbong,"GyeongchunLine, GyeonguiLine, Line7",37.596362,127.085032,standardized_alias,matched
+JungangLine,Sinwon,sinwon,Sinwon,GyeonguiLine,37.525545,127.372921,exact,matched
+JungangLine,Ungilsan,ungilsan,Ungilsan,GyeonguiLine,37.554669,127.310115,exact,matched
+JungangLine,Wondeok,wondeok,Wondeok,GyeonguiLine,37.468672,127.547076,exact,matched
+JungangLine,Yangjeong,yangjeong,Yangjeong,GyeonguiLine,37.60533,127.19364,exact,matched
+JungangLine,Yangpyeong,yangpyeong,Yangpyeong,"GyeonguiLine, Line5",37.492832,127.491814,exact,matched
+JungangLine,Yangsu,yangsu,Yangsu,GyeonguiLine,37.545981,127.329098,exact,matched
+JungangLine,Yangwon,yangwon,Yangwon,GyeonguiLine,37.606596,127.107906,exact,matched
+JungangLine,Yongmun,yongmun,Yongmun,GyeonguiLine,37.48223,127.594647,exact,matched
+Line1,Cheongnyangni,cheongnyangni,Cheongnyangni,"BundangLine, GyeongchunLine, GyeonguiLine, Line1",37.580178,127.046835,exact,matched
+Line1,Cheongnyangni (Underground),cheongnyangni,Cheongnyangni,"BundangLine, GyeongchunLine, GyeonguiLine, Line1",37.580178,127.046835,standardized_alias,matched
+Line1,City Hall,city hall,City Hall,"Line1, Line2",37.564718,126.977108,exact,matched
+Line1,Dongdaemun,dongdaemun,Dongdaemun,"Line1, Line4",37.57142,127.009745,exact,matched
+Line1,Dongmyo,dongmyo,Dongmyo,"Line1, Line6",37.572627,127.016429,exact,matched
+Line1,Jegi-dong,jegi-dong,Jegi-dong,Line1,37.578103,127.034893,exact,matched
+Line1,Jonggak,jonggak,Jonggak,Line1,37.570161,126.982923,exact,matched
+Line1,Jongno 3-ga,jongno 3-ga,Jongno 3-ga,"Line1, Line3, Line5",37.571607,126.991806,exact,matched
+Line1,Jongno 5-ga,jongno 5-ga,Jongno 5-ga,Line1,37.570926,127.001849,exact,matched
+Line1,Seoul,seoul,Seoul,"AirportRailroadExpress, GyeonguiLine, Line1, Line4",37.554648,126.972559,exact,matched
+Line1,Sinseol-dong,sinseol-dong,Sinseol-dong,"Line1, Line2, Ui-SinseolLine",37.575297,127.025087,exact,matched
+Line2,Ahyeon,ahyeon,Ahyeon,Line2,37.557345,126.956141,exact,matched
+Line2,Bangbae,bangbae,Bangbae,Line2,37.481426,126.997596,exact,matched
+Line2,Bongcheon,bongcheon,Bongcheon,Line2,37.482362,126.941892,exact,matched
+Line2,Chungjeongno,chungjeongno,Chungjeongno (Kyonggi Univ.),"Line2, Line5",37.559973,126.963672,standardized_alias,matched
+Line2,Chungjeongno (Kyonggi Univ.),chungjeongno,Chungjeongno (Kyonggi Univ.),"Line2, Line5",37.559973,126.963672,exact,matched
+Line2,City Hall,city hall,City Hall,"Line1, Line2",37.564718,126.977108,exact,matched
+Line2,Daelim,daelim,Daelim,"Line2, Line7",37.49297,126.895801,exact,matched
+Line2,Dangsan,dangsan,Dangsan,"Line2, Line9",37.53438,126.902281,exact,matched
+Line2,Dongdaemun History & Culture Park,dongdaemun history & culture park,Dongdaemun History & Culture Park,"Line2, Line4, Line5",37.565138,127.007896,exact,matched
+Line2,Dorimcheon,dorimcheon,Dorimcheon,Line2,37.514287,126.882768,exact,matched
+Line2,Euljiro 1-ga,euljiro 1-ga,Euljiro 1-ga,Line2,37.566014,126.982618,exact,matched
+Line2,Euljiro 3-ga,euljiro 3-ga,Euljiro 3-ga,"Line2, Line3",37.566295,126.99191,exact,matched
+Line2,Euljiro 4-ga,euljiro 4-ga,Euljiro 4-ga,"Line2, Line5",37.566941,126.998079,exact,matched
+Line2,Ewha Womans Univ.,ewha womans univ.,Ewha Womans Univ.,Line2,37.556733,126.946013,exact,matched
+Line2,Gangbyeon,gangbyeon,Gangbyeon,Line2,37.535095,127.094681,exact,matched
+Line2,Gangnam,gangnam,Gangnam,"Line2, ShinbundangLine",37.497175,127.027926,exact,matched
+Line2,Guro Digital Complex,guro digital complex,Guro Digital Complex,Line2,37.485266,126.901401,exact,matched
+Line2,Guui,guui,Guui,Line2,37.537077,127.085916,exact,matched
+Line2,Hanyang Univ.,hanyang univ.,Hanyang Univ.,Line2,37.555273,127.043655,exact,matched
+Line2,Hapjeong,hapjeong,Hapjeong,"Line2, Line6",37.549463,126.913739,exact,matched
+Line2,Hongik Univ.,hongik univ.,Hongik Univ.,"AirportRailroadExpress, GyeonguiLine, Line2",37.557192,126.925381,exact,matched
+Line2,Jamsil,jamsil,Jamsil (Songpa-gu Office),"Line2, Line8",37.51395,127.102234,standardized_alias,matched
+Line2,Jamsil (Songpa-gu Office),jamsil,Jamsil (Songpa-gu Office),"Line2, Line8",37.51395,127.102234,exact,matched
+Line2,Jamsil Naru,jamsil naru,Jamsil Naru,Line2,37.520733,127.10379,exact,matched
+Line2,Jamsilsaenae,jamsilsaenae,Jamsilsaenae,"Line2, SeohaeLine",37.511687,127.086162,exact,matched
+Line2,Konkuk Univ.,konkuk univ.,Konkuk Univ.,"Line2, Line7",37.540693,127.07023,exact,matched
+Line2,Mullae,mullae,Mullae,Line2,37.517933,126.89476,exact,matched
+Line2,Nakseongdae,nakseongdae,Nakseongdae,Line2,37.47693,126.963693,exact,matched
+Line2,Sadang,sadang,Sadang,"Line2, Line4",37.47653,126.981685,exact,matched
+Line2,Samseong,samseong,Samseong,Line2,37.508844,127.06316,exact,matched
+Line2,Sangwangsimni,sangwangsimni,Sangwangsimni,Line2,37.564354,127.029354,exact,matched
+Line2,Seocho,seocho,Seocho,Line2,37.491897,127.007917,exact,matched
+Line2,Seolleung,seolleung,Seolleung,"BundangLine, Line2",37.504503,127.049008,exact,matched
+Line2,Seongsu,seongsu,Seongsu,Line2,37.544581,127.055961,exact,matched
+Line2,Seoul Nat'l Univ.,seoul nat'l univ.,,,,,unmatched,station_name_not_found
+Line2,Seoul Nat'l Univ. Entrance,seoul nat'l univ. entrance,Seoul Nat'l Univ. Entrance,Line2,37.481247,126.952739,exact,matched
+Line2,Seoul Nat'l Univ. of Education,seoul nat'l univ. of education,Seoul Nat'l Univ. of Education,"Line2, Line3",37.493415,127.01408,exact,matched
+Line2,Sillim,sillim,Sillim,Line2,37.484201,126.929715,exact,matched
+Line2,Sincheon,sincheon,,,,,unmatched,station_name_not_found
+Line2,Sinchon,sinchon,Sinchon,"GyeonguiLine, Line2",37.555134,126.936893,exact,matched
+Line2,Sindaebang,sindaebang,Sindaebang,Line2,37.487462,126.913149,exact,matched
+Line2,Sindang,sindang,Sindang,"Line2, Line6",37.565972,127.01782,exact,matched
+Line2,Sindap,sindap,Sindap,Line2,37.57004,127.046481,exact,matched
+Line2,Sindorim,sindorim,Sindorim,"Line1, Line2",37.508725,126.891295,exact,matched
+Line2,Sinjeong Negeori,sinjeong negeori,Sinjeong Negeori,Line2,37.520074,126.852912,exact,matched
+Line2,Sinseol-dong,sinseol-dong,Sinseol-dong,"Line1, Line2, Ui-SinseolLine",37.575297,127.025087,exact,matched
+Line2,Sports Complex,sports complex,Sports Complex,"Line2, Line9",37.510997,127.073642,exact,matched
+Line2,Ttukseom,ttukseom,Ttukseom,Line2,37.547184,127.047367,exact,matched
+Line2,Wangsimni (Seongdong-gu Office),wangsimni,Wangsimni (Seongdong-gu Office),"BundangLine, GyeonguiLine, Line2, Line5",37.561533,127.037732,exact,matched
+Line2,Yangcheon-gu Office,yangcheon-gu office,Yangcheon-gu Office,Line2,37.512398,126.865819,exact,matched
+Line2,Yeoksam,yeoksam,Yeoksam,Line2,37.500622,127.036456,exact,matched
+Line2,Yeongdeungpo-gu Office,yeongdeungpo-gu office,Yeongdeungpo-gu Office,"Line2, Line5",37.52497,126.895951,exact,matched
+Line2,Yongdap,yongdap,Yongdap,Line2,37.561904,127.050899,exact,matched
+Line2,Yongdu,yongdu,Yongdu (Dongdaemun-gu Office),Line2,37.574028,127.038091,standardized_alias,matched
+Line2,Yongdu (Dongdaemun-gu Office),yongdu,Yongdu (Dongdaemun-gu Office),Line2,37.574028,127.038091,exact,matched
+Line3,Anguk,anguk,Anguk,Line3,37.576477,126.985443,exact,matched
+Line3,Apgujeong,apgujeong,Apgujeong,Line3,37.527072,127.028461,exact,matched
+Line3,Bulgwang,bulgwang,Bulgwang,"Line3, Line6",37.610469,126.929887,exact,matched
+Line3,Chungmuro,chungmuro,Chungmuro,"Line3, Line4",37.561243,126.99428,exact,matched
+Line3,Daecheong,daecheong,Daecheong,Line3,37.493514,127.079532,exact,matched
+Line3,Daechi,daechi,Daechi,Line3,37.494612,127.063642,exact,matched
+Line3,Dogok,dogok,Dogok,"BundangLine, Line3",37.490858,127.055381,exact,matched
+Line3,Dongguk Univ.,dongguk univ.,Dongguk Univ.,Line3,37.559052,127.005602,exact,matched
+Line3,Dongnimmun,dongnimmun,Dongnimmun,Line3,37.574571,126.957748,exact,matched
+Line3,Euljiro 3-ga,euljiro 3-ga,Euljiro 3-ga,"Line2, Line3",37.566295,126.99191,exact,matched
+Line3,Express Bus Terminal,express bus terminal,Express Bus Terminal,"Line3, Line7, Line9",37.50481,127.004943,exact,matched
+Line3,Garak Market,garak market,Garak Market,"Line3, Line8",37.492522,127.118234,exact,matched
+Line3,Geumho,geumho,Geumho,Line3,37.548034,127.015872,exact,matched
+Line3,Gupabal,gupabal,Gupabal,Line3,37.636763,126.918821,exact,matched
+Line3,Gyeongbokgung,gyeongbokgung,Gyeongbokgung (Gov't Seoul Complex),Line3,37.575762,126.97353,standardized_alias,matched
+Line3,Gyeongbokgung (Gov't Seoul Complex),gyeongbokgung,Gyeongbokgung (Gov't Seoul Complex),Line3,37.575762,126.97353,exact,matched
+Line3,Hangnyeoul,hangnyeoul,Hangnyeoul,Line3,37.496663,127.070594,exact,matched
+Line3,Hongje,hongje,Hongje,Line3,37.589066,126.943736,exact,matched
+Line3,Irwon,irwon,Irwon,Line3,37.483681,127.08439,exact,matched
+Line3,Jamwon,jamwon,Jamwon,Line3,37.512759,127.01122,exact,matched
+Line3,Jichuk,jichuk,Jichuk,Line3,37.648048,126.913951,exact,matched
+Line3,Jongno 3-ga,jongno 3-ga,Jongno 3-ga,"Line1, Line3, Line5",37.571607,126.991806,exact,matched
+Line3,Maebong,maebong,Maebong,Line3,37.486947,127.046769,exact,matched
+Line3,Muakjae,muakjae,Muakjae,Line3,37.582299,126.950291,exact,matched
+Line3,Nambu Bus Terminal,nambu bus terminal,Nambu Bus Terminal (Seoul Arts Center),Line3,37.485013,127.016189,standardized_alias,matched
+Line3,Nambu Bus Terminal (Seoul Arts Center),nambu bus terminal,Nambu Bus Terminal (Seoul Arts Center),Line3,37.485013,127.016189,exact,matched
+Line3,Nokbeon,nokbeon,Nokbeon,Line3,37.600927,126.935756,exact,matched
+Line3,Ogeum,ogeum,Ogeum,"Line3, Line5",37.502162,127.128111,exact,matched
+Line3,Oksu,oksu,Oksu,"GyeonguiLine, Line3",37.540685,127.017965,exact,matched
+Line3,Police Hospital,police hospital,Police Hospital,Line3,37.495918,127.12454,exact,matched
+Line3,Seoul Nat'l Univ. of Education,seoul nat'l univ. of education,Seoul Nat'l Univ. of Education,"Line2, Line3",37.493415,127.01408,exact,matched
+Line3,Sinsa,sinsa,Sinsa,Line3,37.516334,127.020114,exact,matched
+Line3,Suseo,suseo,Suseo,"BundangLine, Line3",37.487371,127.10188,exact,matched
+Line3,Yaksu,yaksu,Yaksu,"Line3, Line6",37.55434,127.010655,exact,matched
+Line3,Yangjae,yangjae,Yangjae (Seocho-gu Office),"Line3, ShinbundangLine",37.484147,127.034631,standardized_alias,matched
+Line3,Yangjae (Seocho-gu Office),yangjae,Yangjae (Seocho-gu Office),"Line3, ShinbundangLine",37.484147,127.034631,exact,matched
+Line3,Yeonsinnae,yeonsinnae,Yeonsinnae,"Line3, Line6",37.619001,126.921008,exact,matched
+Line4,Buramsan,buramsan,Buramsan,Line4,37.670272,127.079066,exact,matched
+Line4,Changdong,changdong,Changdong,"Line1, Line4",37.653166,127.047731,exact,matched
+Line4,Chongshin Univ.,chongshin univ.,Chongshin Univ. (Isu),"Line4, Line7",37.486263,126.981989,standardized_alias,matched
+Line4,Chongshin Univ. (Isu),chongshin univ.,Chongshin Univ. (Isu),"Line4, Line7",37.486263,126.981989,exact,matched
+Line4,Chungmuro,chungmuro,Chungmuro,"Line3, Line4",37.561243,126.99428,exact,matched
+Line4,Danggogae,danggogae,,,,,unmatched,station_name_not_found
+Line4,Dongdaemun,dongdaemun,Dongdaemun,"Line1, Line4",37.57142,127.009745,exact,matched
+Line4,Dongdaemun History & Culture Park,dongdaemun history & culture park,Dongdaemun History & Culture Park,"Line2, Line4, Line5",37.565138,127.007896,exact,matched
+Line4,Dongjak,dongjak,Dongjak (Seoul Nat'l Cemetery),"Line4, Line9",37.502971,126.979306,standardized_alias,matched
+Line4,Dongjak (Seoul Nat'l Cemetery),dongjak,Dongjak (Seoul Nat'l Cemetery),"Line4, Line9",37.502971,126.979306,exact,matched
+Line4,Gireum,gireum,Gireum,Line4,37.603407,127.025053,exact,matched
+Line4,Hansung Univ.,hansung univ.,Hansung Univ. (Samseon Bridge),Line4,37.588458,127.006221,standardized_alias,matched
+Line4,Hansung Univ. (Samseon Bridge),hansung univ.,Hansung Univ. (Samseon Bridge),Line4,37.588458,127.006221,exact,matched
+Line4,Hoehyeon,hoehyeon,Hoehyeon (Namdaemun Market),Line4,37.558514,126.978246,standardized_alias,matched
+Line4,Hoehyeon (Namdaemun Market),hoehyeon,Hoehyeon (Namdaemun Market),Line4,37.558514,126.978246,exact,matched
+Line4,Hyehwa,hyehwa,Hyehwa,Line4,37.582336,127.001844,exact,matched
+Line4,Ichon,ichon,Ichon (Nat'l Museum of Korea),"GyeonguiLine, Line4",37.522272,126.974345,standardized_alias,matched
+Line4,Ichon (Nat'l Museum of Korea),ichon,Ichon (Nat'l Museum of Korea),"GyeonguiLine, Line4",37.522272,126.974345,exact,matched
+Line4,Mia,mia,Mia (Seoul Cyber Univ.),Line4,37.62667,127.025983,standardized_alias,matched
+Line4,Mia (Seoul Cyber Univ.),mia,Mia (Seoul Cyber Univ.),Line4,37.62667,127.025983,exact,matched
+Line4,Mia Sageori,mia sageori,Mia Sageori,Line4,37.613292,127.030053,exact,matched
+Line4,Myeong-dong,myeong-dong,Myeong-dong,Line4,37.560989,126.986325,exact,matched
+Line4,Namtaeryeong,namtaeryeong,Namtaeryeong,Line4,37.463873,126.989134,exact,matched
+Line4,Nowon,nowon,Nowon,"Line4, Line7",37.655128,127.061368,exact,matched
+Line4,Sadang,sadang,Sadang,"Line2, Line4",37.47653,126.981685,exact,matched
+Line4,Samgakji,samgakji,Samgakji (War Memorial),"Line4, Line6",37.534777,126.97311,standardized_alias,matched
+Line4,Samgakji (War Memorial),samgakji,Samgakji (War Memorial),"Line4, Line6",37.534777,126.97311,exact,matched
+Line4,Sanggye,sanggye,Sanggye,Line4,37.660878,127.073572,exact,matched
+Line4,Seoul,seoul,Seoul,"AirportRailroadExpress, GyeonguiLine, Line1, Line4",37.554648,126.972559,exact,matched
+Line4,Sinyongsan,sinyongsan,Sinyongsan,Line4,37.52917,126.967894,exact,matched
+Line4,Sookmyung Women's Univ.,sookmyung women's univ.,Sookmyung Women's Univ. (Seoul Metropolitan Office of Education),Line4,37.54456,126.972106,standardized_alias,matched
+Line4,Sookmyung Women's Univ. (Galwol),sookmyung women's univ.,Sookmyung Women's Univ. (Seoul Metropolitan Office of Education),Line4,37.54456,126.972106,standardized_alias,matched
+Line4,Sookmyung Women's Univ. (Seoul Metropolitan Office of Education),sookmyung women's univ.,Sookmyung Women's Univ. (Seoul Metropolitan Office of Education),Line4,37.54456,126.972106,exact,matched
+Line4,Ssangmun,ssangmun,Ssangmun,Line4,37.648627,127.034709,exact,matched
+Line4,Sungshin Women's Univ.,sungshin women's univ.,Sungshin Women's Univ. (Donam),"Line4, Ui-SinseolLine",37.592624,127.016403,standardized_alias,matched
+Line4,Sungshin Women's Univ. (Donam),sungshin women's univ.,Sungshin Women's Univ. (Donam),"Line4, Ui-SinseolLine",37.592624,127.016403,exact,matched
+Line4,Suyu (Gangbuk-gu Office),suyu,Suyu (Gangbuk-gu Office),Line4,37.638052,127.025732,exact,matched
+Line5,Achasan,achasan,Achasan (Children's Grand Park Rear Gate),Line5,37.551691,127.089761,standardized_alias,matched
+Line5,Achasan (Children's Grand Park Rear Gate),achasan,Achasan (Children's Grand Park Rear Gate),Line5,37.551691,127.089761,exact,matched
+Line5,Aeogae,aeogae,Aeogae,Line5,37.553736,126.95682,exact,matched
+Line5,Balsan,balsan,Balsan,Line5,37.558598,126.837668,exact,matched
+Line5,Banghwa,banghwa,Banghwa,Line5,37.577446,126.812741,exact,matched
+Line5,Bangi,bangi,Bangi,Line5,37.508857,127.126133,exact,matched
+Line5,Cheonggu,cheonggu,Cheonggu,"Line5, Line6",37.560245,127.013828,exact,matched
+Line5,Cheonho,cheonho,Cheonho (Pungnaptoseong),"Line5, Line8",37.538397,127.123572,standardized_alias,matched
+Line5,Cheonho (Pungnaptoseong),cheonho,Cheonho (Pungnaptoseong),"Line5, Line8",37.538397,127.123572,exact,matched
+Line5,Chungjeongno,chungjeongno,Chungjeongno (Kyonggi Univ.),"Line2, Line5",37.559973,126.963672,standardized_alias,matched
+Line5,Chungjeongno (Kyonggi Univ.),chungjeongno,Chungjeongno (Kyonggi Univ.),"Line2, Line5",37.559973,126.963672,exact,matched
+Line5,Dapsimni,dapsimni,Dapsimni,Line5,37.566747,127.052704,exact,matched
+Line5,Dongdaemun History & Culture Park,dongdaemun history & culture park,Dongdaemun History & Culture Park,"Line2, Line4, Line5",37.565138,127.007896,exact,matched
+Line5,Dunchon-dong,dunchon-dong,Dunchon-dong,Line5,37.527788,127.136248,exact,matched
+Line5,Euljiro 4-ga,euljiro 4-ga,Euljiro 4-ga,"Line2, Line5",37.566941,126.998079,exact,matched
+Line5,Gaehwasan,gaehwasan,Gaehwasan,Line5,37.572399,126.806171,exact,matched
+Line5,Gaerong,gaerong,Gaerong,Line5,37.498079,127.13482,exact,matched
+Line5,Gangdong,gangdong,Gangdong,Line5,37.535804,127.132481,exact,matched
+Line5,Gangil,gangil,,,,,unmatched,station_name_not_found
+Line5,Geoyeo,geoyeo,Geoyeo,Line5,37.493105,127.14415,exact,matched
+Line5,Gil-dong,gil-dong,Gil-dong,Line5,37.537801,127.140004,exact,matched
+Line5,Gimpo Int'l Airport,gimpo int'l airport,Gimpo Int'l Airport,"AirportRailroadExpress, GimpoGoldline, Line5, Line9",37.562434,126.801058,exact,matched
+Line5,Godeok,godeok,Godeok,Line5,37.555004,127.154151,exact,matched
+Line5,Gongdeok,gongdeok,Gongdeok,"AirportRailroadExpress, GyeonguiLine, Line5, Line6",37.544018,126.951592,exact,matched
+Line5,Gubeundari,gubeundari,Gubeundari (Gangdong-gu Civic Center),Line5,37.545477,127.142853,standardized_alias,matched
+Line5,Gubeundari (Gangdong-gu Civic Center),gubeundari,Gubeundari (Gangdong-gu Civic Center),Line5,37.545477,127.142853,exact,matched
+Line5,Gunja,gunja,Gunja (Neungdong),"Line5, Line7",37.557121,127.079542,standardized_alias,matched
+Line5,Gunja (Neungdong),gunja,Gunja (Neungdong),"Line5, Line7",37.557121,127.079542,exact,matched
+Line5,Gwanghwamun,gwanghwamun,Gwanghwamun (Sejong Center),Line5,37.571026,126.976669,standardized_alias,matched
+Line5,Gwanghwamun (Sejong Center),gwanghwamun,Gwanghwamun (Sejong Center),Line5,37.571026,126.976669,exact,matched
+Line5,Gwangnaru,gwangnaru,Gwangnaru,Line5,37.545303,127.10357,exact,matched
+Line5,Gwangnaru (Jangsin Univ.),gwangnaru,Gwangnaru,Line5,37.545303,127.10357,standardized_alias,matched
+Line5,Haengdang,haengdang,Haengdang,Line5,37.557322,127.029476,exact,matched
+Line5,Hanam City Hall (Deokpung/Sinjang),hanam city hall,,,,,unmatched,station_name_not_found
+Line5,Hanam Geomdansan,hanam geomdansan,,,,,unmatched,station_name_not_found
+Line5,Hanam Pungsan,hanam pungsan,Hanam Pungsan,Line5,,,exact,coordinates_unavailable
+Line5,Hwagok,hwagok,Hwagok,Line5,37.541513,126.840461,exact,matched
+Line5,Janganpyeong,janganpyeong,Janganpyeong,Line5,37.56144,127.064623,exact,matched
+Line5,Jongno 3-ga,jongno 3-ga,Jongno 3-ga,"Line1, Line3, Line5",37.571607,126.991806,exact,matched
+Line5,Kkachisan,kkachisan,Kkachisan,"Line2, Line5",37.531768,126.846683,exact,matched
+Line5,Macheon,macheon,Macheon,Line5,37.49499,127.152781,exact,matched
+Line5,Magok,magok,Magok,Line5,37.560183,126.825448,exact,matched
+Line5,Majang,majang,Majang,Line5,37.5661,127.042973,exact,matched
+Line5,Mapo,mapo,Mapo,Line5,37.539574,126.945932,exact,matched
+Line5,Misa,misa,Misa,Line5,,,exact,coordinates_unavailable
+Line5,Mok-dong,mok-dong,Mok-dong,Line5,37.526065,126.864931,exact,matched
+Line5,Myeongil,myeongil,Myeongil,Line5,37.55137,127.143999,exact,matched
+Line5,Ogeum,ogeum,Ogeum,"Line3, Line5",37.502162,127.128111,exact,matched
+Line5,Olympic Park,olympic park,Olympic Park (Korea Nat'l Sport Univ.),"Line5, Line9",37.516078,127.130848,standardized_alias,matched
+Line5,Olympic Park (Korea Nat'l Sport Univ.),olympic park,Olympic Park (Korea Nat'l Sport Univ.),"Line5, Line9",37.516078,127.130848,exact,matched
+Line5,Omokgyo,omokgyo,Omokgyo (Mokdong Stadium),Line5,37.524496,126.875181,standardized_alias,matched
+Line5,Omokgyo (Mokdong Stadium),omokgyo,Omokgyo (Mokdong Stadium),Line5,37.524496,126.875181,exact,matched
+Line5,Sangil-dong,sangil-dong,Sangil-dong,Line5,37.556712,127.166417,exact,matched
+Line5,Seodaemun,seodaemun,Seodaemun,Line5,37.565773,126.966641,exact,matched
+Line5,Singeumho,singeumho,Singeumho,Line5,37.554548,127.020331,exact,matched
+Line5,Singil,singil,Singil,"Line1, Line5",37.517122,126.917169,exact,matched
+Line5,Sinjeong,sinjeong,Sinjeong (Eunhaengjeong),Line5,37.524997,126.856191,standardized_alias,matched
+Line5,Sinjeong (Eunhaengjeong),sinjeong,Sinjeong (Eunhaengjeong),Line5,37.524997,126.856191,exact,matched
+Line5,Songjeong,songjeong,Songjeong,Line5,37.561184,126.811973,exact,matched
+Line5,Ujangsan,ujangsan,Ujangsan,Line5,37.548768,126.836318,exact,matched
+Line5,Wangsimni (Seongdong-gu Office),wangsimni,Wangsimni (Seongdong-gu Office),"BundangLine, GyeonguiLine, Line2, Line5",37.561533,127.037732,exact,matched
+Line5,Yangpyeong,yangpyeong,Yangpyeong,"GyeonguiLine, Line5",37.492832,127.491814,exact,matched
+Line5,Yeongdeungpo Market,yeongdeungpo market,Yeongdeungpo Market,Line5,37.522669,126.905139,exact,matched
+Line5,Yeongdeungpo-gu Office,yeongdeungpo-gu office,Yeongdeungpo-gu Office,"Line2, Line5",37.52497,126.895951,exact,matched
+Line5,Yeouido,yeouido,Yeouido,"Line5, Line9",37.521624,126.924191,exact,matched
+Line5,Yeouinaru,yeouinaru,Yeouinaru,Line5,37.527098,126.932901,exact,matched
+Line6,Anam,anam,Anam (Korea Univ. Hospital),Line6,37.586272,127.029005,standardized_alias,matched
+Line6,Anam (Korea Univ. Hospital),anam,Anam (Korea Univ. Hospital),Line6,37.586272,127.029005,exact,matched
+Line6,Beorigogae,beorigogae,Beorigogae,Line6,37.548013,127.007055,exact,matched
+Line6,Bomun,bomun,Bomun,"Line6, Ui-SinseolLine",37.585286,127.019381,exact,matched
+Line6,Bonghwasan (Seoul Medical Center),bonghwasan,Bonghwasan (Seoul Medical Center),Line6,37.617283,127.091401,exact,matched
+Line6,Bulgwang,bulgwang,Bulgwang,"Line3, Line6",37.610469,126.929887,exact,matched
+Line6,Changsin,changsin,Changsin,Line6,37.579661,127.015241,exact,matched
+Line6,Cheonggu,cheonggu,Cheonggu,"Line5, Line6",37.560245,127.013828,exact,matched
+Line6,Daeheung,daeheung,Daeheung (Sogang Univ.),Line6,37.547771,126.942069,standardized_alias,matched
+Line6,Daeheung (Sogang Univ.),daeheung,Daeheung (Sogang Univ.),Line6,37.547771,126.942069,exact,matched
+Line6,Digital Media City,digital media city,Digital Media City,"AirportRailroadExpress, GyeonguiLine, Line6",37.576646,126.900984,exact,matched
+Line6,Dokbawi,dokbawi,Dokbawi,Line6,37.618456,126.933031,exact,matched
+Line6,Dolgoji,dolgoji,Dolgoji,Line6,37.610537,127.056431,exact,matched
+Line6,Dongmyo,dongmyo,Dongmyo,"Line1, Line6",37.572627,127.016429,exact,matched
+Line6,Eungam,eungam,Eungam,Line6,37.598605,126.915577,exact,matched
+Line6,Gongdeok,gongdeok,Gongdeok,"AirportRailroadExpress, GyeonguiLine, Line5, Line6",37.544018,126.951592,exact,matched
+Line6,Gusan,gusan,Gusan,Line6,37.611377,126.91727,exact,matched
+Line6,Gwangheungchang,gwangheungchang,Gwangheungchang (Seogang),Line6,37.547456,126.931993,standardized_alias,matched
+Line6,Gwangheungchang (Seogang),gwangheungchang,Gwangheungchang (Seogang),Line6,37.547456,126.931993,exact,matched
+Line6,Hangangjin,hangangjin,Hangangjin,Line6,37.539631,127.001725,exact,matched
+Line6,Hapjeong,hapjeong,Hapjeong,"Line2, Line6",37.549463,126.913739,exact,matched
+Line6,Hwarangdae,hwarangdae,Hwarangdae (Seoul Women's Univ.),Line6,37.620064,127.084689,standardized_alias,matched
+Line6,Hwarangdae (Seoul Women's Univ.),hwarangdae,Hwarangdae (Seoul Women's Univ.),Line6,37.620064,127.084689,exact,matched
+Line6,Hyochang Park,hyochang park,Hyochang Park,"GyeonguiLine, Line6",37.539261,126.961351,exact,matched
+Line6,Itaewon,itaewon,Itaewon,Line6,37.534488,126.994302,exact,matched
+Line6,Jeungsan,jeungsan,Jeungsan (Myongji Univ.),Line6,37.583876,126.909645,standardized_alias,matched
+Line6,Jeungsan (Myongji Univ.),jeungsan,Jeungsan (Myongji Univ.),Line6,37.583876,126.909645,exact,matched
+Line6,Korea Univ.,korea univ.,Korea Univ. (Jongam),Line6,37.590508,127.036296,standardized_alias,matched
+Line6,Korea Univ. (Jongam),korea univ.,Korea Univ. (Jongam),Line6,37.590508,127.036296,exact,matched
+Line6,Mangwon,mangwon,Mangwon,Line6,37.556094,126.910052,exact,matched
+Line6,Mapo-gu Office,mapo-gu office,Mapo-gu Office,Line6,37.563515,126.903343,exact,matched
+Line6,Noksapyeong (Yongsan-gu Office),noksapyeong,Noksapyeong (Yongsan-gu Office),Line6,37.534675,126.986695,exact,matched
+Line6,Saejeol,saejeol,Saejeol (Sinsa),Line6,37.591148,126.913629,standardized_alias,matched
+Line6,Saejeol (Sinsa),saejeol,Saejeol (Sinsa),Line6,37.591148,126.913629,exact,matched
+Line6,Samgakji,samgakji,Samgakji (War Memorial),"Line4, Line6",37.534777,126.97311,standardized_alias,matched
+Line6,Samgakji (War Memorial),samgakji,Samgakji (War Memorial),"Line4, Line6",37.534777,126.97311,exact,matched
+Line6,Sangsu,sangsu,Sangsu,Line6,37.547716,126.922852,exact,matched
+Line6,Sangwolgok,sangwolgok,Sangwolgok (KIST),Line6,37.606377,127.048491,standardized_alias,matched
+Line6,Sangwolgok (KIST),sangwolgok,Sangwolgok (KIST),Line6,37.606377,127.048491,exact,matched
+Line6,Seokgye,seokgye,Seokgye,"Line1, Line6",37.614805,127.065851,exact,matched
+Line6,Sindang,sindang,Sindang,"Line2, Line6",37.565972,127.01782,exact,matched
+Line6,Sinnae,sinnae,Sinnae,"GyeongchunLine, Line6",37.612887,127.103218,exact,matched
+Line6,Taereung Entrance,taereung entrance,Taereung Entrance,"Line6, Line7",37.617983,127.07512,exact,matched
+Line6,Wolgok,wolgok,Wolgok (Dongduk Women's Univ.),Line6,37.601948,127.041518,standardized_alias,matched
+Line6,Wolgok (Dongduk Women's Univ.),wolgok,Wolgok (Dongduk Women's Univ.),Line6,37.601948,127.041518,exact,matched
+Line6,World Cup Stadium,world cup stadium,World Cup Stadium (Seongsan),Line6,37.569532,126.899298,standardized_alias,matched
+Line6,World Cup Stadium (Seongsan),world cup stadium,World Cup Stadium (Seongsan),Line6,37.569532,126.899298,exact,matched
+Line6,Yaksu,yaksu,Yaksu,"Line3, Line6",37.55434,127.010655,exact,matched
+Line6,Yeokcchon,yeokcchon,Yeokcchon,Line6,37.606021,126.922744,exact,matched
+Line6,Yeonsinnae,yeonsinnae,Yeonsinnae,"Line3, Line6",37.619001,126.921008,exact,matched
+Line7,Banpo,banpo,Banpo,Line7,37.508178,127.011727,exact,matched
+Line7,Boramae,boramae,Boramae,Line7,37.499872,126.920428,exact,matched
+Line7,Bucheon City Hall,bucheon city hall,Bucheon City Hall,Line7,37.504631,126.763538,exact,matched
+Line7,Bucheon Stadium,bucheon stadium,Bucheon Stadium,Line7,37.50538,126.797337,exact,matched
+Line7,Bupyeong-gu Office,bupyeong-gu office,Bupyeong-gu Office,"IncheonLine1, Line7",37.508336,126.720548,exact,matched
+Line7,Cheolsan,cheolsan,Cheolsan,Line7,37.47605,126.867911,exact,matched
+Line7,Cheongdam,cheongdam,Cheongdam,Line7,37.519365,127.05335,exact,matched
+Line7,Cheonwang,cheonwang,Cheonwang,Line7,37.486637,126.838713,exact,matched
+Line7,Children's Grand Park,children's grand park,Children's Grand Park (Sejong Univ.),Line7,37.548014,127.074658,standardized_alias,matched
+Line7,Children's Grand Park (Sejong Univ.),children's grand park,Children's Grand Park (Sejong Univ.),Line7,37.548014,127.074658,exact,matched
+Line7,Chunui,chunui,Chunui,Line7,37.503663,126.787036,exact,matched
+Line7,Daelim,daelim,Daelim,"Line2, Line7",37.49297,126.895801,exact,matched
+Line7,Dobongsan,dobongsan,Dobongsan,"Line1, Line7",37.689313,127.046222,exact,matched
+Line7,Express Bus Terminal,express bus terminal,Express Bus Terminal,"Line3, Line7, Line9",37.50481,127.004943,exact,matched
+Line7,Gangnam-gu Office,gangnam-gu office,Gangnam-gu Office,"BundangLine, Line7",37.517186,127.04128,exact,matched
+Line7,Gasan Digital Complex,gasan digital complex,Gasan Digital Complex,"Line1, Line7",37.481072,126.882343,exact,matched
+Line7,Gongneung,gongneung,Gongneung (Seoul Nat'l Univ. of Science & Technology),Line7,37.625742,127.072896,standardized_alias,matched
+Line7,Gongneung (Seoul Nat'l Univ. of Science & Technology),gongneung,Gongneung (Seoul Nat'l Univ. of Science & Technology),Line7,37.625742,127.072896,exact,matched
+Line7,Gulpocheon,gulpocheon,Gulpocheon,Line7,37.506997,126.73128,exact,matched
+Line7,Gunja,gunja,Gunja (Neungdong),"Line5, Line7",37.557121,127.079542,standardized_alias,matched
+Line7,Gunja (Neungdong),gunja,Gunja (Neungdong),"Line5, Line7",37.557121,127.079542,exact,matched
+Line7,Gwangmyeong Sageori,gwangmyeong sageori,Gwangmyeong Sageori,Line7,37.479252,126.854876,exact,matched
+Line7,Hagye,hagye,Hagye,Line7,37.636352,127.06799,exact,matched
+Line7,Hakdong,hakdong,Hakdong,Line7,37.514229,127.031656,exact,matched
+Line7,Isu,isu,,,,,unmatched,station_name_not_found
+Line7,Jangam,jangam,Jangam,Line7,37.700109,127.053196,exact,matched
+Line7,Jangseungbaegi,jangseungbaegi,Jangseungbaegi,Line7,37.504898,126.93915,exact,matched
+Line7,Jayang (Ttukseom Hangang Park),jayang,Jayang (Ttukseom Hangang Park),Line7,37.53154,127.066704,exact,matched
+Line7,Junggok,junggok,Junggok,Line7,37.565923,127.08432,exact,matched
+Line7,Junggye,junggye,Junggye,Line7,37.644583,127.064303,exact,matched
+Line7,Junghwa,junghwa,Junghwa,Line7,37.602545,127.079264,exact,matched
+Line7,Kkachiul,kkachiul,Kkachiul,Line7,37.506207,126.810939,exact,matched
+Line7,Konkuk Univ.,konkuk univ.,Konkuk Univ.,"Line2, Line7",37.540693,127.07023,exact,matched
+Line7,Madeul,madeul,Madeul,Line7,37.66494,127.057675,exact,matched
+Line7,Meokgol,meokgol,Meokgol,Line7,37.610637,127.077725,exact,matched
+Line7,Myeonmok,myeonmok,Myeonmok,Line7,37.588579,127.087503,exact,matched
+Line7,Naebang,naebang,Naebang,Line7,37.487618,126.993513,exact,matched
+Line7,Namguro,namguro,Namguro,Line7,37.486056,126.887249,exact,matched
+Line7,Namseong,namseong,Namseong,Line7,37.484596,126.971251,exact,matched
+Line7,Nonhyeon,nonhyeon,Nonhyeon,Line7,37.511093,127.021415,exact,matched
+Line7,Nowon,nowon,Nowon,"Line4, Line7",37.655128,127.061368,exact,matched
+Line7,Onsu,onsu,Onsu (Sungkonghoe Univ.),"Line1, Line7",37.492258,126.823388,standardized_alias,matched
+Line7,Onsu (Sungkonghoe Univ.),onsu,Onsu (Sungkonghoe Univ.),"Line1, Line7",37.492258,126.823388,exact,matched
+Line7,Sagajeong,sagajeong,Sagajeong,Line7,37.580894,127.088478,exact,matched
+Line7,Samsan Gymnasium,samsan gymnasium,Samsan Gymnasium,Line7,37.506411,126.742153,exact,matched
+Line7,Sangbong,sangbong,Sangbong,"GyeongchunLine, GyeonguiLine, Line7",37.596362,127.085032,exact,matched
+Line7,Sangbong (Intercity Bus Terminal),sangbong,Sangbong,"GyeongchunLine, GyeonguiLine, Line7",37.596362,127.085032,standardized_alias,matched
+Line7,Sangdo,sangdo,Sangdo,Line7,37.502834,126.94791,exact,matched
+Line7,Sangdong,sangdong,Sangdong,Line7,37.505781,126.753083,exact,matched
+Line7,Sindaebang Samgeori,sindaebang samgeori,Sindaebang Samgeori,Line7,37.499701,126.928276,exact,matched
+Line7,Sinjung-dong,sinjung-dong,Sinjung-dong,Line7,37.503048,126.77596,exact,matched
+Line7,Sinpung,sinpung,Sinpung,Line7,37.50008,126.90993,exact,matched
+Line7,Soongsil Univ.,soongsil univ.,Soongsil Univ. (Salpijae),Line7,37.496029,126.953822,standardized_alias,matched
+Line7,Soongsil Univ. (Salpijae),soongsil univ.,Soongsil Univ. (Salpijae),Line7,37.496029,126.953822,exact,matched
+Line7,Suraksan,suraksan,Suraksan,Line7,37.67785,127.055315,exact,matched
+Line7,Taereung Entrance,taereung entrance,Taereung Entrance,"Line6, Line7",37.617983,127.07512,exact,matched
+Line7,Ttukseom Resort,ttukseom resort,,,,,unmatched,station_name_not_found
+Line7,Yongmasan,yongmasan,Yongmasan (Yongma Waterfall Park),Line7,37.573647,127.086727,standardized_alias,matched
+Line7,Yongmasan (Yongma Waterfall Park),yongmasan,Yongmasan (Yongma Waterfall Park),Line7,37.573647,127.086727,exact,matched
+Line8,Amsa,amsa,Amsa,Line8,37.55021,127.127562,exact,matched
+Line8,Amsa Historical Park,amsa historical park,,,,,unmatched,station_name_not_found
+Line8,Bokjeong,bokjeong,Bokjeong,"BundangLine, Line8",37.470047,127.126662,exact,matched
+Line8,Cheonho,cheonho,Cheonho (Pungnaptoseong),"Line5, Line8",37.538397,127.123572,standardized_alias,matched
+Line8,Cheonho (Pungnaptoseong),cheonho,Cheonho (Pungnaptoseong),"Line5, Line8",37.538397,127.123572,exact,matched
+Line8,Dandae Ogeori,dandae ogeori,Dandae Ogeori,Line8,37.44521,127.156866,exact,matched
+Line8,Gangdong-gu Office,gangdong-gu office,Gangdong-gu Office,Line8,37.530341,127.120508,exact,matched
+Line8,Garak Market,garak market,Garak Market,"Line3, Line8",37.492522,127.118234,exact,matched
+Line8,Jamsil,jamsil,Jamsil (Songpa-gu Office),"Line2, Line8",37.51395,127.102234,standardized_alias,matched
+Line8,Jamsil (Songpa-gu Office),jamsil,Jamsil (Songpa-gu Office),"Line2, Line8",37.51395,127.102234,exact,matched
+Line8,Jangji,jangji,Jangji,Line8,37.478703,127.126191,exact,matched
+Line8,Mongchontoseong,mongchontoseong,Mongchontoseong (Gate of Peace),Line8,37.517409,127.112359,standardized_alias,matched
+Line8,Mongchontoseong (Gate of Peace),mongchontoseong,Mongchontoseong (Gate of Peace),Line8,37.517409,127.112359,exact,matched
+Line8,Moran,moran,Moran,"BundangLine, Line8",37.43213,127.129087,exact,matched
+Line8,Munjeong,munjeong,Munjeong,Line8,37.485855,127.1225,exact,matched
+Line8,Namhansanseong Entrance,namhansanseong entrance,Namhansanseong Entrance (Seongnam Court/Prosecutors' Office),Line8,37.451535,127.159816,standardized_alias,matched
+Line8,Namhansanseong Entrance (Seongnam Court/Prosecutors' Office),namhansanseong entrance,Namhansanseong Entrance (Seongnam Court/Prosecutors' Office),Line8,37.451535,127.159816,exact,matched
+Line8,Namwirye,namwirye,,,,,unmatched,station_name_not_found
+Line8,Sanseong,sanseong,Sanseong,Line8,37.457122,127.149908,exact,matched
+Line8,Seokchon,seokchon,Seokchon,"Line8, Line9",37.505431,127.106979,exact,matched
+Line8,Sinheung,sinheung,Sinheung,Line8,37.440918,127.147564,exact,matched
+Line8,Songpa,songpa,Songpa,Line8,37.499703,127.112183,exact,matched
+Line8,Sujin,sujin,Sujin,Line8,37.437428,127.140722,exact,matched
+Line9,Dangsan,dangsan,Dangsan,"Line2, Line9",37.53438,126.902281,exact,matched
+Line9,Deungchon,deungchon,Deungchon,Line9,37.550632,126.865689,exact,matched
+Line9,Dongjak,dongjak,Dongjak (Seoul Nat'l Cemetery),"Line4, Line9",37.502971,126.979306,standardized_alias,matched
+Line9,Dongjak (Seoul Nat'l Cemetery),dongjak,Dongjak (Seoul Nat'l Cemetery),"Line4, Line9",37.502971,126.979306,exact,matched
+Line9,Express Bus Terminal,express bus terminal,Express Bus Terminal,"Line3, Line7, Line9",37.50481,127.004943,exact,matched
+Line9,Gaehwa,gaehwa,Gaehwa,Line9,37.578608,126.798153,exact,matched
+Line9,Gayang,gayang,Gayang,Line9,37.561391,126.854456,exact,matched
+Line9,Gimpo Int'l Airport,gimpo int'l airport,Gimpo Int'l Airport,"AirportRailroadExpress, GimpoGoldline, Line5, Line9",37.562434,126.801058,exact,matched
+Line9,Gonghang Market,gonghang market,Gonghang Market,Line9,37.563726,126.810678,exact,matched
+Line9,Gubanpo,gubanpo,Gubanpo,Line9,37.501364,126.987332,exact,matched
+Line9,Heukseok (Chung-Ang Univ.),heukseok,Heukseok (Chung-Ang Univ.),Line9,37.50877,126.963708,exact,matched
+Line9,Jeungmi,jeungmi,Jeungmi,Line9,37.557402,126.861939,exact,matched
+Line9,Magok Naru,magok naru,Magok Naru (Seoul Botanic Park),"AirportRailroadExpress, Line9",37.567336,126.829497,standardized_alias,matched
+Line9,Magok Naru (Seoul Botanic Park),magok naru,Magok Naru (Seoul Botanic Park),"AirportRailroadExpress, Line9",37.567336,126.829497,exact,matched
+Line9,National Assembly,national assembly,National Assembly,Line9,37.528105,126.917874,exact,matched
+Line9,Nodeul,nodeul,Nodeul,Line9,37.512887,126.953222,exact,matched
+Line9,Noryangjin,noryangjin,Noryangjin,"Line1, Line9",37.514219,126.942454,exact,matched
+Line9,Saetgang,saetgang,Saetgang,Line9,37.517274,126.928422,exact,matched
+Line9,Sapyeong,sapyeong,Sapyeong,Line9,37.504206,127.015259,exact,matched
+Line9,Seonyudo,seonyudo,Seonyudo,Line9,37.53802,126.893525,exact,matched
+Line9,Sinbanghwa,sinbanghwa,Sinbanghwa,Line9,37.567532,126.816601,exact,matched
+Line9,Sinbanpo,sinbanpo,Sinbanpo,Line9,37.503415,126.995925,exact,matched
+Line9,Sinmok-dong,sinmok-dong,Sinmok-dong,Line9,37.544277,126.88308,exact,matched
+Line9,Sinnonhyeon,sinnonhyeon,Sinnonhyeon,Line9,37.504598,127.02506,exact,matched
+Line9,Yangcheon Hyanggyo,yangcheon hyanggyo,Yangcheon Hyanggyo,Line9,37.568381,126.841333,exact,matched
+Line9,Yeomchang,yeomchang,Yeomchang,Line9,37.546936,126.874916,exact,matched
+Line9,Yeouido,yeouido,Yeouido,"Line5, Line9",37.521624,126.924191,exact,matched
+Line9_secondRoute,Bongeunsa,bongeunsa,Bongeunsa,Line9,37.514219,127.060245,exact,matched
+Line9_secondRoute,Dunchon Oryun,dunchon oryun,Dunchon Oryun,Line9,,,exact,coordinates_unavailable
+Line9_secondRoute,Eonju,eonju,Eonju,Line9,37.507287,127.033868,exact,matched
+Line9_secondRoute,Hanseong Baekje,hanseong baekje,Hanseong Baekje,Line9,,,exact,coordinates_unavailable
+Line9_secondRoute,Jungang Veterans Hospital,jungang veterans hospital,Jungang Veterans Hospital,Line9,,,exact,coordinates_unavailable
+Line9_secondRoute,Olympic Park (Korea Nat'l Sport Univ.),olympic park,Olympic Park (Korea Nat'l Sport Univ.),"Line5, Line9",37.516078,127.130848,exact,matched
+Line9_secondRoute,Samjeon,samjeon,Samjeon,Line9,,,exact,coordinates_unavailable
+Line9_secondRoute,Samseong Jungang,samseong jungang,Samseong Jungang,Line9,37.513011,127.053282,exact,matched
+Line9_secondRoute,Seokchon,seokchon,Seokchon,"Line8, Line9",37.505431,127.106979,exact,matched
+Line9_secondRoute,Seokchon Gobun,seokchon gobun,Seokchon Gobun,Line9,,,exact,coordinates_unavailable
+Line9_secondRoute,Seonjeongneung,seonjeongneung,Seonjeongneung,"BundangLine, Line9",37.51098,127.043593,exact,matched
+Line9_secondRoute,Songpa Naru,songpa naru,Songpa Naru,Line9,,,exact,coordinates_unavailable
+Line9_secondRoute,Sports Complex,sports complex,Sports Complex,"Line2, Line9",37.510997,127.073642,exact,matched
+Line9_secondRoute단계,Bongeunsa,bongeunsa,Bongeunsa,Line9,37.514219,127.060245,exact,matched
+Line9_secondRoute단계,Eonju,eonju,Eonju,Line9,37.507287,127.033868,exact,matched
+Line9_secondRoute단계,Samseong Jungang,samseong jungang,Samseong Jungang,Line9,37.513011,127.053282,exact,matched
+Line9_secondRoute단계,Seonjeongneung,seonjeongneung,Seonjeongneung,"BundangLine, Line9",37.51098,127.043593,exact,matched
+Line9_secondRoute단계,Sports Complex,sports complex,Sports Complex,"Line2, Line9",37.510997,127.073642,exact,matched
+SeohaeLine,Bucheon Stadium,bucheon stadium,Bucheon Stadium,Line7,37.50538,126.797337,exact,matched
+SeohaeLine,Gimpo Int'l Airport,gimpo int'l airport,Gimpo Int'l Airport,"AirportRailroadExpress, GimpoGoldline, Line5, Line9",37.562434,126.801058,exact,matched
+SeohaeLine,Wonjong,wonjong,,,,,unmatched,station_name_not_found
+SillimLine,Boramae,boramae,Boramae,Line7,37.499872,126.920428,exact,matched
+SillimLine,Boramae Hospital,boramae hospital,,,,,unmatched,station_name_not_found
+SillimLine,Boramae Park,boramae park,,,,,unmatched,station_name_not_found
+SillimLine,Daebang,daebang,Daebang,Line1,37.513342,126.926382,exact,matched
+SillimLine,Danggok,danggok,,,,,unmatched,station_name_not_found
+SillimLine,Gwanaksan (Seoul Nat'l Univ.),gwanaksan,,,,,unmatched,station_name_not_found
+SillimLine,Saetgang,saetgang,Saetgang,Line9,37.517274,126.928422,exact,matched
+SillimLine,Seoul Nat'l Univ. Venture Town,seoul nat'l univ. venture town,,,,,unmatched,station_name_not_found
+SillimLine,Seoul Regional Military Manpower Admin.,seoul regional military manpower admin.,,,,,unmatched,station_name_not_found
+SillimLine,Seowon,seowon,,,,,unmatched,station_name_not_found
+SillimLine,Sillim,sillim,Sillim,Line2,37.484201,126.929715,exact,matched
+SuinLine,Dalwol,dalwol,Dalwol,SuinLine,37.379681,126.745177,exact,matched
+SuinLine,Eocheon,eocheon,,,,,unmatched,station_name_not_found
+SuinLine,Gosaek,gosaek,,,,,unmatched,station_name_not_found
+SuinLine,Hogupo,hogupo,Hogupo,SuinLine,37.401637,126.708627,exact,matched
+SuinLine,Incheon,incheon,Incheon,"Line1, SuinLine",37.476691,126.616936,exact,matched
+SuinLine,Incheon Nonhyeon,incheon nonhyeon,Incheon Nonhyeon,SuinLine,37.400614,126.722478,exact,matched
+SuinLine,Inha Univ.,inha univ.,Inha Univ.,SuinLine,37.448493,126.649619,exact,matched
+SuinLine,Namdong Indus Park,namdong indus park,Namdong Indus Park,SuinLine,37.407722,126.695216,exact,matched
+SuinLine,Omokcheon,omokcheon,,,,,unmatched,station_name_not_found
+SuinLine,Sari,sari,,,,,unmatched,station_name_not_found
+SuinLine,Sinpo,sinpo,Sinpo,SuinLine,37.46874,126.623853,exact,matched
+SuinLine,Songdo,songdo,Songdo,SuinLine,37.428514,126.657772,exact,matched
+SuinLine,Sorae Pogu,sorae pogu,Sorae Pogu,SuinLine,37.40095,126.733522,exact,matched
+SuinLine,Sungui,sungui,Sungui,SuinLine,37.460789,126.638297,exact,matched
+SuinLine,Wolgot,wolgot,Wolgot,SuinLine,37.391769,126.742699,exact,matched
+SuinLine,Woninjae,woninjae,Woninjae,"IncheonLine1, SuinLine",37.412603,126.687389,exact,matched
+SuinLine,Yamok,yamok,,,,,unmatched,station_name_not_found
+SuinLine,Yeonsu,yeonsu,Yeonsu,SuinLine,37.417804,126.67894,exact,matched
+Ui-SinseolLine,4.19 Democratic Cemetery,4.19 democratic cemetery,4.19 Democratic Cemetery,Ui-SinseolLine,37.649593,127.013746,exact,matched
+Ui-SinseolLine,Bomun,bomun,Bomun,"Line6, Ui-SinseolLine",37.585286,127.019381,exact,matched
+Ui-SinseolLine,Bukhansan Bogungmun,bukhansan bogungmun,Bukhansan Bogungmun,Ui-SinseolLine,37.612343,127.008009,exact,matched
+Ui-SinseolLine,Bukhansan Ui,bukhansan ui,Bukhansan Ui,Ui-SinseolLine,37.663146,127.012789,exact,matched
+Ui-SinseolLine,Gaori,gaori,Gaori,Ui-SinseolLine,37.641701,127.016792,exact,matched
+Ui-SinseolLine,Hwagye,hwagye,Hwagye,Ui-SinseolLine,37.634802,127.017519,exact,matched
+Ui-SinseolLine,Jeongneung,jeongneung,Jeongneung,Ui-SinseolLine,37.602798,127.01349,exact,matched
+Ui-SinseolLine,Samyang,samyang,Samyang,Ui-SinseolLine,37.627165,127.018152,exact,matched
+Ui-SinseolLine,Samyang Sageori,samyang sageori,Samyang Sageori,Ui-SinseolLine,37.621512,127.02048,exact,matched
+Ui-SinseolLine,Sinseol-dong,sinseol-dong,Sinseol-dong,"Line1, Line2, Ui-SinseolLine",37.575297,127.025087,exact,matched
+Ui-SinseolLine,Solbat Park,solbat park,Solbat Park,Ui-SinseolLine,37.656088,127.013252,exact,matched
+Ui-SinseolLine,Solsaem,solsaem,Solsaem,Ui-SinseolLine,37.62124,127.013528,exact,matched
+Ui-SinseolLine,Sungshin Women's Univ. (Donam),sungshin women's univ.,Sungshin Women's Univ. (Donam),"Line4, Ui-SinseolLine",37.592624,127.016403,exact,matched
